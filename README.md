@@ -1,7 +1,7 @@
 Saigkills Dotfiles Template
 ===========================
 
-This is a repository for bootstrapping my dotfiles with [Dotbot][dotbot].
+This is a repository for bootstrapping my dotfiles with [Dotbot][dotbot] and or deploying a complete machien.
 
 The first step for using is to fork the repo and modify the config files to your needs. You 
 also can just install it, run your Apps and submit the modified configs.
