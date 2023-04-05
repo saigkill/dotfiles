@@ -1,0 +1,34 @@
+{
+  "add books dialog dir": "C:\\Users\\Admin\\Downloads",
+  "add books dialog dir-last-used-filter-spec-all-files": false,
+  "choose calibre library": "C:\\Users\\Admin\\OneDrive\\Calibre-Bibliothek",
+  "database location dialog": "C:\\Users\\Sascha\\OneDrive\\Calibre-Bibliothek",
+  "notified-version-updates": {
+    "__class__": "set",
+    "__value__": [
+      "5.37",
+      "5.39",
+      "5.38"
+    ]
+  },
+  "sort_history": [
+    [
+      "title",
+      true
+    ],
+    [
+      "authors",
+      true
+    ],
+    [
+      "title",
+      true
+    ],
+    [
+      "timestamp",
+      false
+    ]
+  ],
+  "welcome_wizard_device": "default",
+  "welcome_wizard_was_run": true
+}

@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+
+case $1 in
+	shrug)
+		xdotool keyup ctrl+alt+s type --delay 0 '¯\_(ツ)_/¯'
+		;;
+	fancy_shrug)
+		xdotool keyup ctrl+alt+shift+s type --delay 0 'ᕴ(ツ)ᕵ'
+		;;
+	sigma)
+		xdotool type --clearmodifiers --delay 0 'Σ'
+		;;
+esac

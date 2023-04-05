@@ -1,0 +1,4 @@
+#!/usr/bin/env zsh
+
+xplugd "$DOTFILES/scripts/xplugdrc"
+export SESSION=${SESSION:-i3}

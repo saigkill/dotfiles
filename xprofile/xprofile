@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+
+# resources
+xrdb "$DOTFILES/xresources"
+[ -f "$DOTFILES_HOST/xresources" ] && xrdb -m "$DOTFILES_HOST/xresources"
+[ -f "$DOTFILES_HOST/xprofile" ] && . "$DOTFILES_HOST/xprofile"
+
+# disable mouse acceleration
+pointer_ids=$(xinput list | grep -Ee "USB Optical Mouse|Logitech G502" | grep -Ee "slave +pointer" | gawk "match(\$0, /id=([0-9]+)/, a) {print a[1]}")
+
+if type xgetres &>/dev/null; then
+	mouse_speed=$(xgetres mouse.speed)
+fi
+: ${mouse_speed:=0.4}
+
+while read pointer; do
+	has_libinput=$(xinput list-props "$pointer" | fgrep "libinput Accel Profile Enabled" >/dev/null 2>&1; echo $?)
+	if [ "$has_libinput" = "0" ]; then
+		xinput set-prop "$pointer" "libinput Accel Profile Enabled" 0, 1
+		xinput set-prop "$pointer" "libinput Accel Speed" $mouse_speed
+	fi
+done <<< "$pointer_ids"
+
+# set keyboard layout
+setxkbmap -layout de -variant nodeadkeys -option compose:caps
+
+# disable monitor standby
+xset -dpms
+# disable screen blanking
+xset s off
+
+export XDG_SESSION_TYPE=x11

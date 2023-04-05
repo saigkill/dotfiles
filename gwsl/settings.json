@@ -1,0 +1,28 @@
+{
+    "conf_ver": 6,
+    "gwsl_ver": "1.4.0",
+    "general": {
+     "pulseaudio": true,
+     "clipboard": true,
+     "start_menu_mode": false,
+     "shell_gui": "cmd",
+     "acrylic_enabled": true
+    },
+    "graphics": {
+     "window_mode": "multi",
+     "hidpi": true
+    },
+    "putty": {
+     "ip": null,
+     "ssh_key": null
+    },
+    "distro_blacklist": [
+     "docker"
+    ],
+    "app_blacklist": [
+     "exampleblock"
+    ],
+    "xserver_profiles": {
+     "Plain VcXsrv": []
+    }
+   }

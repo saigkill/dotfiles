@@ -1,0 +1,6 @@
+Host me.github.com
+    HostName github.com
+    User saigkill
+    Port 22
+    ForwardAgent yes
+    IdentityFile ~/.ssh/id_rsa

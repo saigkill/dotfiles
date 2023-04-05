@@ -1,0 +1,13 @@
+#
+# dotfiles : # dotfiles : https://github.com/saigkill/dotfiles
+#
+# Setup sqlite
+#
+# Authors:
+#   Ben O'Hara <bohara@gmail.com>
+#
+
+.header on
+.mode column
+.timer on
+

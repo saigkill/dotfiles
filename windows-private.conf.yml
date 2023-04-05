@@ -1,0 +1,109 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ["~", "~/.config"]
+
+- link:
+    ~/.ackrc: ack/ackrc
+    ~/.aws/credentials: aws/credentials-private
+    ~/.azure/az_survey.json: azure/az_survey.json
+    ~/.azure/az.json: azure/az.json
+    ~/.azure/az.sess: azure/az.sess
+    ~/.azure/azureProfile.json: azure/azureProfile.json
+    ~/.azure/clouds.config: azure/clouds.config
+    ~/.azure/commandIndex.json: azure/commandIndex.json
+    ~/.azure/config: azure/config
+    ~/.azure/extensionCommandTree.json: azure/extensionCommandTree.json
+    ~/.azuredatastudio/argv.json: azuredatastudio/argv.json
+    ~/.azurefunctions/config: azurefunctions/config
+    ~/.AzureToolsForIntelliJ: AzureToolsForIntelliJ
+    ~/bin: bin
+    ~/AppData/Roaming/calibre: calibre
+    ~/.cargo/config.toml: cargo/cargo-config.toml
+    ~/.cargo/env: cargo/env
+    ~/.curlrc: curl/curlrc
+    ~/.docker: docker
+    ~/.dir_colors: dir_colors
+    ~/.dircolors: dir_colors
+    ~/.config/electron-flags.conf: electron/electron-flags.conf
+    ~/.config/electron12-flags.conf: electron/electron-flags.conf
+    ~/.config/electron13-flags.conf: electron/electron-flags.conf
+    ~/.config/chromium-flags.conf: electron/electron-flags.conf
+    ~/AppData/Roaming/FileZilla: filezilla
+    ~/AppData/Local/FreeCommanderXE/Settings/FreeCommander.ini: freecommander/FreeCommander.ini
+    ~/.git-credentials: git/git-credentials-private
+    ~/.gitattributes: git/gitattributes
+    ~/.gitconfig: git/gitconfig-windows
+    ~/.gitignore: git/gitignore
+    ~/.gitk: git/gitk
+    ~/.tigrc: git/tigrc
+    ~/AppData/Roaming/GitHub CLI/config.yml: githubcli/config.yml
+    ~/AppData/Roaming/GitHub CLI/hosts.yml: githubcli/hosts.yml
+    ~/.gnupg/gpg.conf: gnupg/gpg.conf
+    ~/.gnupg/gpg-agent.conf: gnupg/gpg-agent.conf
+    ~/.grc: grc
+    ~/AppData/Roaming/Greenshot/Greenshot.ini: greenshot/Greenshot.ini
+    ~/.config/gtk-4.0: gtk/gtk-4.0
+    ~/.config/gtk-3.0: gtk/gtk-3.0
+    ~/.gtkrc-2.0: gtk/gtkrc-2.0
+    ~/AppData/Roaming/GWSL/settings.json: gwsl/settings.json
+    ~/.editrc: input/editrc
+    ~/.inputrc: input/inputrc
+    # irssi dont set. Thinking it isnt used on Windows env.
+    ~/AppData/Roaming/lazydocker: lazydocker
+    ~/AppData/Roaming/lazygit: lazygit
+    ~/.librarymanager: librarymanager
+    ~/.config/mc: mc
+    ~/.editorconfig: misc/editorconfig
+    ~/.pam_environment: misc/pam_environment
+    ~/.config/mume: mume
+    # mutt dont set. Thinking it isnt used on Windows env.
+    ~/.my.cnf: mysql/my.cnf # I dont know exactly if MySql places the file on Windows there. Maybe in AppData.
+    ~/AppData/Roaming/Notepad++: notepad++
+    ~/AppData/Roaming/nuget/NuGet.Config: nuget/NuGet.Config
+    ~/AppData/Roaming/NuGet/NuGet.Config: nuget/NuGet.Config
+    ~/AppData/Roaming/OpenInWSL/settings.json: openinwsl/settings.json
+    ~/AppData/Roaming/Pencil/config.json: pencil/config.json
+    # Polybar makes just sense on Linux
+    ~/.psqlrc: postgresql/psqlrc # Not sure if Windows places the config there. Must check.
+    # Powerline makes just sense on Linux.
+    ~/OneDrive/Dokumente/PowerShell: powershell
+    ~/.config/pulse: pulse/pulse_default.pa
+    ~/.python/pylintrc.py: python/pylintrc.py # Must check if Windows places the config here.
+    ~/.python/pythonrc.py: python/pythonrc.py # Must check if Windows places the config here.
+    # Qt dont set. Thinking it isnt used on Windows env.
+    # RPM dont set. Thinking it isnt used on Windows env.
+    ~/.aprc: ruby/aprc
+    ~/.caprc: ruby/caprc
+    ~/.gemrc: ruby/gemrc
+    ~/.irbrc: ruby/irbrc
+    ~/.pryrc: ruby/pryrc
+    ~/.railsrc: ruby/railsrc
+    ~/.rdebugrc: ruby/rdebugrc
+    ~/.rustup: rustup
+    ~/.config/scoop/config.json: scoop/config.json
+    # Screen dont set. Thinking it isnt used on Windows env.
+    # Shell dont set. Thinking it isnt used on Windows env.
+    ~/.sqliterc: sqlite/sqliterc
+    ~/.ssh/config: ssh/config-home
+    ~/.ssh/id_rsa: ssh/id_rsa
+    ~/.ssh/id_rsa.pub: ssh/id_rsa.pub
+    ~/.subversion: subversion
+    # Task dont set. Thinking it isnt used on Windows env.
+    ~/.templateengine: templateengine
+    # Tmux dont set. Thinking it isnt used on Windows env.
+    ~/AppData/Roaming/topgrade.toml: topgrade/topgrade-Windows.toml
+    ~/.vimrc: vim/vimrc
+    ~/.vim: vim/dotvim
+    ~/AppData/Code/User/settings.json: vscode/settings.json
+    ~/AppData/Code/User/argv.json: vscode/argv.json
+    ~/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json: windows-terminal/settings.json
+    ~/.wgetrc: wget/wgetrc
+    # xprofile dont set. Thinking it isnt used on Windows env.
+    ~/.zenmap: zenmap
+    # zsh dont set. Thinking it isnt used on Windows env.
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]

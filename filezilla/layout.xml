@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<FileZilla3 version="3.59.0" platform="windows">
+	<Layout Builddate="2022-04-08" Buildtime="14:28:42">
+		<Resources>
+			<xrc file="dialogs.xrc" date="1649428028" />
+			<xrc file="netconfwizard.xrc" date="1649428028" />
+		</Resources>
+		<Language id="de_DE" date="1649428138">
+			<Font font="0;-18;0;0;0;400;0;0;0;1;0;0;0;0;Segoe UI" width="1016" height="25" />
+		</Language>
+	</Layout>
+</FileZilla3>

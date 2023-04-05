@@ -1,0 +1,408 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">UniversalDashboard.Community</S>
+      <Version N="Version">2.9.0</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Cross-platform module for developing websites and REST APIs.</S>
+      <S N="Author">Adam Driscoll</S>
+      <S N="CompanyName">adamdriscoll</S>
+      <S N="Copyright">2020 Ironman Software, LLC</S>
+      <DT N="PublishedDate">2020-02-14T18:37:38+01:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2021-09-22T20:06:12.0380771+02:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://github.com/ironmansoftware/universal-dashboard/blob/master/LICENSE</URI>
+      <URI N="ProjectUri">https://github.com/ironmansoftware/universal-dashboard</URI>
+      <URI N="IconUri">https://raw.githubusercontent.com/ironmansoftware/universal-dashboard/master/images/logo.png</URI>
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>dashboard</S>
+          <S>web</S>
+          <S>linux</S>
+          <S>windows</S>
+          <S>asp.net</S>
+          <S>website</S>
+          <S>REST</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Out-UDChartData</S>
+                <S>Out-UDGridData</S>
+                <S>Out-UDTableData</S>
+                <S>New-UDChartDataset</S>
+                <S>Out-UDMonitorData</S>
+                <S>Get-UDCookie</S>
+                <S>Set-UDCookie</S>
+                <S>Remove-UDCookie</S>
+                <S>New-UDPolarChartDataset</S>
+                <S>New-UDDoughnutChartDataset</S>
+                <S>New-UDRadarChartDataset</S>
+                <S>New-UDBarChartDataset</S>
+                <S>New-UDLineChartDataset</S>
+                <S>New-UDChartOptions</S>
+                <S>New-UDLogarithmicChartAxis</S>
+                <S>New-UDCategoryChartAxis</S>
+                <S>New-UDLinearChartAxis</S>
+                <S>New-UDPolarChartOptions</S>
+                <S>New-UDDoughnutChartOptions</S>
+                <S>New-UDBarChartOptions</S>
+                <S>New-UDLineChartOptions</S>
+                <S>New-UDChartTooltipOptions</S>
+                <S>New-UDChartTitleOptions</S>
+                <S>New-UDChartLegendLabelOptions</S>
+                <S>New-UDChartLegendOptions</S>
+                <S>New-UDChartLayoutOptions</S>
+                <S>Set-UDContentType</S>
+                <S>Get-UDContentType</S>
+                <S>Update-UDDashboard</S>
+                <S>New-UDGrid</S>
+                <S>New-UDTable</S>
+                <S>New-UDRow</S>
+                <S>New-UDColumn</S>
+                <S>New-UDCard</S>
+                <S>New-UDCollapsible</S>
+                <S>New-UDCollapsibleItem</S>
+                <S>New-UDLayout</S>
+                <S>New-UDParagraph</S>
+                <S>New-UDHeading</S>
+                <S>New-UDLink</S>
+                <S>New-UDIFrame</S>
+                <S>New-UDIcon</S>
+                <S>New-UDPreloader</S>
+                <S>New-UDSelect</S>
+                <S>New-UDSelectOption</S>
+                <S>New-UDSelectGroup</S>
+                <S>New-UDCollection</S>
+                <S>New-UDCollectionItem</S>
+                <S>New-UDSpan</S>
+                <S>New-UDCheckbox</S>
+                <S>Write-UDLog</S>
+                <S>New-UDButton</S>
+                <S>New-UDSwitch</S>
+                <S>New-UDRadio</S>
+                <S>New-UDTextbox</S>
+                <S>New-UDImage</S>
+                <S>New-UDFab</S>
+                <S>New-UDFabButton</S>
+                <S>New-UDTab</S>
+                <S>New-UDTabContainer</S>
+                <S>New-UDGridLayout</S>
+                <S>New-UDImageCarousel</S>
+                <S>New-UDImageCarouselItem</S>
+                <S>New-UDSplitPane</S>
+                <S>New-UDTreeNode</S>
+                <S>New-UDTreeView</S>
+                <S>New-UDTooltip</S>
+                <S>Invoke-UDEvent</S>
+                <S>New-UDMuAvatar</S>
+                <S>New-UDMuButton</S>
+                <S>New-UDMuCard</S>
+                <S>New-UDMuCardToolbar</S>
+                <S>New-UDMuCardHeader</S>
+                <S>New-UDMuCardBody</S>
+                <S>New-UDMuCardExpand</S>
+                <S>New-UDMuCardFooter</S>
+                <S>New-UDMuCardMedia</S>
+                <S>New-UDMuCheckBox</S>
+                <S>New-UDMuChip</S>
+                <S>New-UDIconButton</S>
+                <S>New-UDMuLink</S>
+                <S>New-UDMuList</S>
+                <S>New-UDMuListItem</S>
+                <S>New-UDMuPaper</S>
+                <S>New-UDPdf</S>
+                <S>New-UDMuTypography</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>New-UDChart</S>
+                <S>New-UDDashboard</S>
+                <S>Get-UDDashboard</S>
+                <S>Start-UDDashboard</S>
+                <S>Stop-UDDashboard</S>
+                <S>New-UDMonitor</S>
+                <S>New-UDHtml</S>
+                <S>New-UDCounter</S>
+                <S>New-UDPage</S>
+                <S>Enable-UDLogging</S>
+                <S>Disable-UDLogging</S>
+                <S>New-UDInput</S>
+                <S>New-UDInputAction</S>
+                <S>New-UDEndpoint</S>
+                <S>Start-UDRestApi</S>
+                <S>Stop-UDRestApi</S>
+                <S>Get-UDRestApi</S>
+                <S>New-UDInputField</S>
+                <S>New-UDFooter</S>
+                <S>New-UDElement</S>
+                <S>New-UDTheme</S>
+                <S>Get-UDTheme</S>
+                <S>Add-UDElement</S>
+                <S>Set-UDElement</S>
+                <S>Remove-UDElement</S>
+                <S>Clear-UDElement</S>
+                <S>Get-UDElement</S>
+                <S>New-UDEndpointSchedule</S>
+                <S>Show-UDToast</S>
+                <S>Sync-UDElement</S>
+                <S>ConvertTo-JsonEx</S>
+                <S>Invoke-UDRedirect</S>
+                <S>Show-UDModal</S>
+                <S>Hide-UDModal</S>
+                <S>Select-UDElement</S>
+                <S>Set-UDClipboard</S>
+                <S>Invoke-UDJavaScript</S>
+                <S>Hide-UDToast</S>
+                <S>Publish-UDFolder</S>
+                <S>New-UDEndpointInitialization</S>
+                <S>New-UDSideNav</S>
+                <S>New-UDSideNavItem</S>
+                <S>Clear-UDCache</S>
+                <S>Out-UDChartData</S>
+                <S>Out-UDGridData</S>
+                <S>Out-UDTableData</S>
+                <S>New-UDChartDataset</S>
+                <S>Out-UDMonitorData</S>
+                <S>Get-UDCookie</S>
+                <S>Set-UDCookie</S>
+                <S>Remove-UDCookie</S>
+                <S>New-UDPolarChartDataset</S>
+                <S>New-UDDoughnutChartDataset</S>
+                <S>New-UDRadarChartDataset</S>
+                <S>New-UDBarChartDataset</S>
+                <S>New-UDLineChartDataset</S>
+                <S>New-UDChartOptions</S>
+                <S>New-UDLogarithmicChartAxis</S>
+                <S>New-UDCategoryChartAxis</S>
+                <S>New-UDLinearChartAxis</S>
+                <S>New-UDPolarChartOptions</S>
+                <S>New-UDDoughnutChartOptions</S>
+                <S>New-UDBarChartOptions</S>
+                <S>New-UDLineChartOptions</S>
+                <S>New-UDChartTooltipOptions</S>
+                <S>New-UDChartTitleOptions</S>
+                <S>New-UDChartLegendLabelOptions</S>
+                <S>New-UDChartLegendOptions</S>
+                <S>New-UDChartLayoutOptions</S>
+                <S>Set-UDContentType</S>
+                <S>Get-UDContentType</S>
+                <S>Update-UDDashboard</S>
+                <S>New-UDGrid</S>
+                <S>New-UDTable</S>
+                <S>New-UDRow</S>
+                <S>New-UDColumn</S>
+                <S>New-UDCard</S>
+                <S>New-UDCollapsible</S>
+                <S>New-UDCollapsibleItem</S>
+                <S>New-UDLayout</S>
+                <S>New-UDParagraph</S>
+                <S>New-UDHeading</S>
+                <S>New-UDLink</S>
+                <S>New-UDIFrame</S>
+                <S>New-UDIcon</S>
+                <S>New-UDPreloader</S>
+                <S>New-UDSelect</S>
+                <S>New-UDSelectOption</S>
+                <S>New-UDSelectGroup</S>
+                <S>New-UDCollection</S>
+                <S>New-UDCollectionItem</S>
+                <S>New-UDSpan</S>
+                <S>New-UDCheckbox</S>
+                <S>Write-UDLog</S>
+                <S>New-UDButton</S>
+                <S>New-UDSwitch</S>
+                <S>New-UDRadio</S>
+                <S>New-UDTextbox</S>
+                <S>New-UDImage</S>
+                <S>New-UDFab</S>
+                <S>New-UDFabButton</S>
+                <S>New-UDTab</S>
+                <S>New-UDTabContainer</S>
+                <S>New-UDGridLayout</S>
+                <S>New-UDImageCarousel</S>
+                <S>New-UDImageCarouselItem</S>
+                <S>New-UDSplitPane</S>
+                <S>New-UDTreeNode</S>
+                <S>New-UDTreeView</S>
+                <S>New-UDTooltip</S>
+                <S>Invoke-UDEvent</S>
+                <S>New-UDMuAvatar</S>
+                <S>New-UDMuButton</S>
+                <S>New-UDMuCard</S>
+                <S>New-UDMuCardToolbar</S>
+                <S>New-UDMuCardHeader</S>
+                <S>New-UDMuCardBody</S>
+                <S>New-UDMuCardExpand</S>
+                <S>New-UDMuCardFooter</S>
+                <S>New-UDMuCardMedia</S>
+                <S>New-UDMuCheckBox</S>
+                <S>New-UDMuChip</S>
+                <S>New-UDIconButton</S>
+                <S>New-UDMuLink</S>
+                <S>New-UDMuList</S>
+                <S>New-UDMuListItem</S>
+                <S>New-UDMuPaper</S>
+                <S>New-UDPdf</S>
+                <S>New-UDMuTypography</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Obj N="Value" RefId="8">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Obj N="Value" RefId="9">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="10">
+              <TNRef RefId="2" />
+              <LST>
+                <S>New-UDChart</S>
+                <S>New-UDDashboard</S>
+                <S>Get-UDDashboard</S>
+                <S>Start-UDDashboard</S>
+                <S>Stop-UDDashboard</S>
+                <S>New-UDMonitor</S>
+                <S>New-UDHtml</S>
+                <S>New-UDCounter</S>
+                <S>New-UDPage</S>
+                <S>Enable-UDLogging</S>
+                <S>Disable-UDLogging</S>
+                <S>New-UDInput</S>
+                <S>New-UDInputAction</S>
+                <S>New-UDEndpoint</S>
+                <S>Start-UDRestApi</S>
+                <S>Stop-UDRestApi</S>
+                <S>Get-UDRestApi</S>
+                <S>New-UDInputField</S>
+                <S>New-UDFooter</S>
+                <S>New-UDElement</S>
+                <S>New-UDTheme</S>
+                <S>Get-UDTheme</S>
+                <S>Add-UDElement</S>
+                <S>Set-UDElement</S>
+                <S>Remove-UDElement</S>
+                <S>Clear-UDElement</S>
+                <S>Get-UDElement</S>
+                <S>New-UDEndpointSchedule</S>
+                <S>Show-UDToast</S>
+                <S>Sync-UDElement</S>
+                <S>ConvertTo-JsonEx</S>
+                <S>Invoke-UDRedirect</S>
+                <S>Show-UDModal</S>
+                <S>Hide-UDModal</S>
+                <S>Select-UDElement</S>
+                <S>Set-UDClipboard</S>
+                <S>Invoke-UDJavaScript</S>
+                <S>Hide-UDToast</S>
+                <S>Publish-UDFolder</S>
+                <S>New-UDEndpointInitialization</S>
+                <S>New-UDSideNav</S>
+                <S>New-UDSideNavItem</S>
+                <S>Clear-UDCache</S>
+              </LST>
+            </Obj>
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">https://github.com/ironmansoftware/universal-dashboard/blob/master/CHANGELOG.md</S>
+      <Obj N="Dependencies" RefId="11">
+        <TNRef RefId="2" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="12">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">2020 Ironman Software, LLC</S>
+          <S N="description">Cross-platform module for developing websites and REST APIs.</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="releaseNotes">https://github.com/ironmansoftware/universal-dashboard/blob/master/CHANGELOG.md</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">13154</S>
+          <S N="downloadCount">40813</S>
+          <S N="packageSize">23578862</S>
+          <S N="published">14.02.2020 18:37:38 +01:00</S>
+          <S N="created">14.02.2020 18:37:38 +01:00</S>
+          <S N="lastUpdated">22.09.2021 16:41:37 +02:00</S>
+          <S N="tags">dashboard web linux windows asp.net website REST PSModule PSCmdlet_New-UDChart PSCommand_New-UDChart PSCmdlet_New-UDDashboard PSCommand_New-UDDashboard PSCmdlet_Get-UDDashboard PSCommand_Get-UDDashboard PSCmdlet_Start-UDDashboard PSCommand_Start-UDDashboard PSCmdlet_Stop-UDDashboard PSCommand_Stop-UDDashboard PSCmdlet_New-UDMonitor PSCommand_New-UDMonitor PSCmdlet_New-UDHtml PSCommand_New-UDHtml PSCmdlet_New-UDCounter PSCommand_New-UDCounter PSCmdlet_New-UDPage PSCommand_New-UDPage PSCmdlet_Enable-UDLogging PSCommand_Enable-UDLogging PSCmdlet_Disable-UDLogging PSCommand_Disable-UDLogging PSCmdlet_New-UDInput PSCommand_New-UDInput PSCmdlet_New-UDInputAction PSCommand_New-UDInputAction PSCmdlet_New-UDEndpoint PSCommand_New-UDEndpoint PSCmdlet_Start-UDRestApi PSCommand_Start-UDRestApi PSCmdlet_Stop-UDRestApi PSCommand_Stop-UDRestApi PSCmdlet_Get-UDRestApi PSCommand_Get-UDRestApi PSCmdlet_New-UDInputField PSCommand_New-UDInputField PSCmdlet_New-UDFooter PSCommand_New-UDFooter PSCmdlet_New-UDElement PSCommand_New-UDElement PSCmdlet_New-UDTheme PSCommand_New-UDTheme PSCmdlet_Get-UDTheme PSCommand_Get-UDTheme PSCmdlet_Add-UDElement PSCommand_Add-UDElement PSCmdlet_Set-UDElement PSCommand_Set-UDElement PSCmdlet_Remove-UDElement PSCommand_Remove-UDElement PSCmdlet_Clear-UDElement PSCommand_Clear-UDElement PSCmdlet_Get-UDElement PSCommand_Get-UDElement PSCmdlet_New-UDEndpointSchedule PSCommand_New-UDEndpointSchedule PSCmdlet_Show-UDToast PSCommand_Show-UDToast PSCmdlet_Sync-UDElement PSCommand_Sync-UDElement PSCmdlet_ConvertTo-JsonEx PSCommand_ConvertTo-JsonEx PSCmdlet_Invoke-UDRedirect PSCommand_Invoke-UDRedirect PSCmdlet_Show-UDModal PSCommand_Show-UDModal PSCmdlet_Hide-UDModal PSCommand_Hide-UDModal PSCmdlet_Select-UDElement PSCommand_Select-UDElement PSCmdlet_Set-UDClipboard PSCommand_Set-UDClipboard PSCmdlet_Invoke-UDJavaScript PSCommand_Invoke-UDJavaScript PSCmdlet_Hide-UDToast PSCommand_Hide-UDToast PSCmdlet_Publish-UDFolder PSCommand_Publish-UDFolder PSCmdlet_New-UDEndpointInitialization PSCommand_New-UDEndpointInitialization PSCmdlet_New-UDSideNav PSCommand_New-UDSideNav PSCmdlet_New-UDSideNavItem PSCommand_New-UDSideNavItem PSCmdlet_Clear-UDCache PSCommand_Clear-UDCache PSIncludes_Cmdlet PSFunction_Out-UDChartData PSCommand_Out-UDChartData PSFunction_Out-UDGridData PSCommand_Out-UDGridData PSFunction_Out-UDTableData PSCommand_Out-UDTableData PSFunction_New-UDChartDataset PSCommand_New-UDChartDataset PSFunction_Out-UDMonitorData PSCommand_Out-UDMonitorData PSFunction_Get-UDCookie PSCommand_Get-UDCookie PSFunction_Set-UDCookie PSCommand_Set-UDCookie PSFunction_Remove-UDCookie PSCommand_Remove-UDCookie PSFunction_New-UDPolarChartDataset PSCommand_New-UDPolarChartDataset PSFunction_New-UDDoughnutChartDataset PSCommand_New-UDDoughnutChartDataset PSFunction_New-UDRadarChartDataset PSCommand_New-UDRadarChartDataset PSFunction_New-UDBarChartDataset PSCommand_New-UDBarChartDataset PSFunction_New-UDLineChartDataset PSCommand_New-UDLineChartDataset PSFunction_New-UDChartOptions PSCommand_New-UDChartOptions PSFunction_New-UDLogarithmicChartAxis PSCommand_New-UDLogarithmicChartAxis PSFunction_New-UDCategoryChartAxis PSCommand_New-UDCategoryChartAxis PSFunction_New-UDLinearChartAxis PSCommand_New-UDLinearChartAxis PSFunction_New-UDPolarChartOptions PSCommand_New-UDPolarChartOptions PSFunction_New-UDDoughnutChartOptions PSCommand_New-UDDoughnutChartOptions PSFunction_New-UDBarChartOptions PSCommand_New-UDBarChartOptions PSFunction_New-UDLineChartOptions PSCommand_New-UDLineChartOptions PSFunction_New-UDChartTooltipOptions PSCommand_New-UDChartTooltipOptions PSFunction_New-UDChartTitleOptions PSCommand_New-UDChartTitleOptions PSFunction_New-UDChartLegendLabelOptions PSCommand_New-UDChartLegendLabelOptions PSFunction_New-UDChartLegendOptions PSCommand_New-UDChartLegendOptions PSFunction_New-UDChartLayoutOptions PSCommand_New-UDChartLayoutOptions PSFunction_Set-UDContentType PSCommand_Set-UDContentType PSFunction_Get-UDContentType PSCommand_Get-UDContentType PSFunction_Update-UDDashboard PSCommand_Update-UDDashboard PSFunction_New-UDGrid PSCommand_New-UDGrid PSFunction_New-UDTable PSCommand_New-UDTable PSFunction_New-UDRow PSCommand_New-UDRow PSFunction_New-UDColumn PSCommand_New-UDColumn PSFunction_New-UDCard PSCommand_New-UDCard PSFunction_New-UDCollapsible PSCommand_New-UDCollapsible PSFunction_New-UDCollapsibleItem PSCommand_New-UDCollapsibleItem PSFunction_New-UDLayout PSCommand_New-UDLayout PSFunction_New-UDParagraph PSCommand_New-UDParagraph PSFunction_New-UDHeading PSCommand_New-UDHeading PSFunction_New-UDLink PSCommand_New-UDLink PSFunction_New-UDIFrame PSCommand_New-UDIFrame PSFunction_New-UDIcon PSCommand_New-UDIcon PSFunction_New-UDPreloader PSCommand_New-UDPreloader PSFunction_New-UDSelect PSCommand_New-UDSelect PSFunction_New-UDSelectOption PSCommand_New-UDSelectOption PSFunction_New-UDSelectGroup PSCommand_New-UDSelectGroup PSFunction_New-UDCollection PSCommand_New-UDCollection PSFunction_New-UDCollectionItem PSCommand_New-UDCollectionItem PSFunction_New-UDSpan PSCommand_New-UDSpan PSFunction_New-UDCheckbox PSCommand_New-UDCheckbox PSFunction_Write-UDLog PSCommand_Write-UDLog PSFunction_New-UDButton PSCommand_New-UDButton PSFunction_New-UDSwitch PSCommand_New-UDSwitch PSFunction_New-UDRadio PSCommand_New-UDRadio PSFunction_New-UDTextbox PSCommand_New-UDTextbox PSFunction_New-UDImage PSCommand_New-UDImage PSFunction_New-UDFab PSCommand_New-UDFab PSFunction_New-UDFabButton PSCommand_New-UDFabButton PSFunction_New-UDTab PSCommand_New-UDTab PSFunction_New-UDTabContainer PSCommand_New-UDTabContainer PSFunction_New-UDGridLayout PSCommand_New-UDGridLayout PSFunction_New-UDImageCarousel PSCommand_New-UDImageCarousel PSFunction_New-UDImageCarouselItem PSCommand_New-UDImageCarouselItem PSFunction_New-UDSplitPane PSCommand_New-UDSplitPane PSFunction_New-UDTreeNode PSCommand_New-UDTreeNode PSFunction_New-UDTreeView PSCommand_New-UDTreeView PSFunction_New-UDTooltip PSCommand_New-UDTooltip PSFunction_Invoke-UDEvent PSCommand_Invoke-UDEvent PSFunction_New-UDMuAvatar PSCommand_New-UDMuAvatar PSFunction_New-UDMuButton PSCommand_New-UDMuButton PSFunction_New-UDMuCard PSCommand_New-UDMuCard PSFunction_New-UDMuCardToolbar PSCommand_New-UDMuCardToolbar PSFunction_New-UDMuCardHeader PSCommand_New-UDMuCardHeader PSFunction_New-UDMuCardBody PSCommand_New-UDMuCardBody PSFunction_New-UDMuCardExpand PSCommand_New-UDMuCardExpand PSFunction_New-UDMuCardFooter PSCommand_New-UDMuCardFooter PSFunction_New-UDMuCardMedia PSCommand_New-UDMuCardMedia PSFunction_New-UDMuCheckBox PSCommand_New-UDMuCheckBox PSFunction_New-UDMuChip PSCommand_New-UDMuChip PSFunction_New-UDIconButton PSCommand_New-UDIconButton PSFunction_New-UDMuLink PSCommand_New-UDMuLink PSFunction_New-UDMuList PSCommand_New-UDMuList PSFunction_New-UDMuListItem PSCommand_New-UDMuListItem PSFunction_New-UDMuPaper PSCommand_New-UDMuPaper PSFunction_New-UDPdf PSCommand_New-UDPdf PSFunction_New-UDMuTypography PSCommand_New-UDMuTypography PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2021-09-22T16:41:37Z</S>
+          <S N="NormalizedVersion">2.9.0</S>
+          <S N="Authors">Adam Driscoll</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">UniversalDashboard.Community.nuspec|LICENSE.txt|UniversalDashboard.Community.psd1|UniversalDashboard.Controls.psm1|UniversalDashboard.psm1|UniversalDashboardServer.psm1|web.config|client\10.a5263d0d4e6d77a7859c.bundle.js|client\10.a5263d0d4e6d77a7859c.bundle.map|client\8.a5263d0d4e6d77a7859c.bundle.js|client\8.a5263d0d4e6d77a7859c.bundle.map|client\9.a5263d0d4e6d77a7859c.bundle.js|client\9.a5263d0d4e6d77a7859c.bundle.map|client\favicon.ico|client\index.html|client\main.a5263d0d4e6d77a7859c.bundle.js|client\main.a5263d0d4e6d77a7859c.bundle.map|client\ud-date-time.a5263d0d4e6d77a7859c.bundle.js|client\ud-date-time.a5263d0d4e6d77a7859c.bundle.map|client\ud-element.a5263d0d4e6d77a7859c.bundle.js|client\ud-element.a5263d0d4e6d77a7859c.bundle.map|client\ud-html.a5263d0d4e6d77a7859c.bundle.js|client\ud-html.a5263d0d4e6d77a7859c.bundle.map|client\ud-icon.a5263d0d4e6d77a7859c.bundle.js|client\ud-icon.a5263d0d4e6d77a7859c.bundle.map|client\vendor.a5263d0d4e6d77a7859c.bundle.js|client\vendor.a5263d0d4e6d77a7859c.bundle.map|client\vendors~ud-date-time.a5263d0d4e6d77a7859c.bundle.js|client\vendors~ud-date-time.a5263d0d4e6d77a7859c.bundle.map|client\vendors~ud-icon.a5263d0d4e6d77a7859c.bundle.js|client\vendors~ud-icon.a5263d0d4e6d77a7859c.bundle.map|en-US\UniversalDashboard.Community-help.xml|net472\Microsoft.ApplicationInsights.dll|net472\Microsoft.AspNetCore.Antiforgery.dll|net472\Microsoft.AspNetCore.Authentication.Abstractions.dll|net472\Microsoft.AspNetCore.Authentication.Cookies.dll|net472\Microsoft.AspNetCore.Authentication.Core.dll|net472\Microsoft.AspNetCore.Authentication.dll|net472\Microsoft.AspNetCore.Authentication.Facebook.dll|net472\Microsoft.AspNetCore.Authentication.Google.dll|net472\Microsoft.AspNetCore.Authentication.JwtBearer.dll|net472\Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll|net472\Microsoft.AspNetCore.Authentication.OAuth.dll|net472\Microsoft.AspNetCore.Authentication.Twitter.dll|net472\Microsoft.AspNetCore.Authorization.dll|net472\Microsoft.AspNetCore.Authorization.Policy.dll|net472\Microsoft.AspNetCore.Connections.Abstractions.dll|net472\Microsoft.AspNetCore.Cors.dll|net472\Microsoft.AspNetCore.Cryptography.Internal.dll|net472\Microsoft.AspNetCore.DataProtection.Abstractions.dll|net472\Microsoft.AspNetCore.DataProtection.dll|net472\Microsoft.AspNetCore.Diagnostics.Abstractions.dll|net472\Microsoft.AspNetCore.Diagnostics.dll|net472\Microsoft.AspNetCore.dll|net472\Microsoft.AspNetCore.HostFiltering.dll|net472\Microsoft.AspNetCore.Hosting.Abstractions.dll|net472\Microsoft.AspNetCore.Hosting.dll|net472\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll|net472\Microsoft.AspNetCore.Html.Abstractions.dll|net472\Microsoft.AspNetCore.Http.Abstractions.dll|net472\Microsoft.AspNetCore.Http.Connections.Common.dll|net472\Microsoft.AspNetCore.Http.Connections.dll|net472\Microsoft.AspNetCore.Http.dll|net472\Microsoft.AspNetCore.Http.Extensions.dll|net472\Microsoft.AspNetCore.Http.Features.dll|net472\Microsoft.AspNetCore.HttpOverrides.dll|net472\Microsoft.AspNetCore.HttpsPolicy.dll|net472\Microsoft.AspNetCore.JsonPatch.dll|net472\Microsoft.AspNetCore.Localization.dll|net472\Microsoft.AspNetCore.Mvc.Abstractions.dll|net472\Microsoft.AspNetCore.Mvc.ApiExplorer.dll|net472\Microsoft.AspNetCore.Mvc.Core.dll|net472\Microsoft.AspNetCore.Mvc.Cors.dll|net472\Microsoft.AspNetCore.Mvc.DataAnnotations.dll|net472\Microsoft.AspNetCore.Mvc.dll|net472\Microsoft.AspNetCore.Mvc.Formatters.Json.dll|net472\Microsoft.AspNetCore.Mvc.Localization.dll|net472\Microsoft.AspNetCore.Mvc.Razor.dll|net472\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll|net472\Microsoft.AspNetCore.Mvc.RazorPages.dll|net472\Microsoft.AspNetCore.Mvc.TagHelpers.dll|net472\Microsoft.AspNetCore.Mvc.ViewFeatures.dll|net472\Microsoft.AspNetCore.Razor.dll|net472\Microsoft.AspNetCore.Razor.Language.dll|net472\Microsoft.AspNetCore.Razor.Runtime.dll|net472\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll|net472\Microsoft.AspNetCore.ResponseCompression.dll|net472\Microsoft.AspNetCore.Routing.Abstractions.dll|net472\Microsoft.AspNetCore.Routing.dll|net472\Microsoft.AspNetCore.Server.IISIntegration.dll|net472\Microsoft.AspNetCore.Server.Kestrel.Core.dll|net472\Microsoft.AspNetCore.Server.Kestrel.dll|net472\Microsoft.AspNetCore.Server.Kestrel.Https.dll|net472\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll|net472\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll|net472\Microsoft.AspNetCore.Session.dll|net472\Microsoft.AspNetCore.SignalR.Common.dll|net472\Microsoft.AspNetCore.SignalR.Core.dll|net472\Microsoft.AspNetCore.SignalR.dll|net472\Microsoft.AspNetCore.SignalR.Protocols.Json.dll|net472\Microsoft.AspNetCore.StaticFiles.dll|net472\Microsoft.AspNetCore.WebSockets.dll|net472\Microsoft.AspNetCore.WebUtilities.dll|net472\Microsoft.CodeAnalysis.CSharp.dll|net472\Microsoft.CodeAnalysis.dll|net472\Microsoft.CodeAnalysis.Razor.dll|net472\Microsoft.DotNet.PlatformAbstractions.dll|net472\Microsoft.Extensions.Caching.Abstractions.dll|net472\Microsoft.Extensions.Caching.Memory.dll|net472\Microsoft.Extensions.Configuration.Abstractions.dll|net472\Microsoft.Extensions.Configuration.Binder.dll|net472\Microsoft.Extensions.Configuration.CommandLine.dll|net472\Microsoft.Extensions.Configuration.dll|net472\Microsoft.Extensions.Configuration.EnvironmentVariables.dll|net472\Microsoft.Extensions.Configuration.FileExtensions.dll|net472\Microsoft.Extensions.Configuration.Json.dll|net472\Microsoft.Extensions.Configuration.UserSecrets.dll|net472\Microsoft.Extensions.DependencyInjection.Abstractions.dll|net472\Microsoft.Extensions.DependencyInjection.dll|net472\Microsoft.Extensions.DependencyModel.dll|net472\Microsoft.Extensions.FileProviders.Abstractions.dll|net472\Microsoft.Extensions.FileProviders.Composite.dll|net472\Microsoft.Extensions.FileProviders.Physical.dll|net472\Microsoft.Extensions.FileSystemGlobbing.dll|net472\Microsoft.Extensions.Hosting.Abstractions.dll|net472\Microsoft.Extensions.Localization.Abstractions.dll|net472\Microsoft.Extensions.Localization.dll|net472\Microsoft.Extensions.Logging.Abstractions.dll|net472\Microsoft.Extensions.Logging.Configuration.dll|net472\Microsoft.Extensions.Logging.Console.dll|net472\Microsoft.Extensions.Logging.Debug.dll|net472\Microsoft.Extensions.Logging.dll|net472\Microsoft.Extensions.Logging.Filter.dll|net472\Microsoft.Extensions.ObjectPool.dll|net472\Microsoft.Extensions.Options.ConfigurationExtensions.dll|net472\Microsoft.Extensions.Options.dll|net472\Microsoft.Extensions.Primitives.dll|net472\Microsoft.Extensions.WebEncoders.dll|net472\Microsoft.IdentityModel.Logging.dll|net472\Microsoft.IdentityModel.Protocols.dll|net472\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll|net472\Microsoft.IdentityModel.Tokens.dll|net472\Microsoft.Net.Http.Headers.dll|net472\Microsoft.Win32.Registry.dll|net472\Newtonsoft.Json.Bson.dll|net472\Newtonsoft.Json.dll|net472\NLog.dll|net472\NLog.Extensions.Logging.dll|net472\NLog.Web.AspNetCore.dll|net472\Quartz.dll|net472\System.Buffers.dll|net472\System.Collections.Immutable.dll|net472\System.ComponentModel.Annotations.dll|net472\System.Diagnostics.DiagnosticSource.dll|net472\System.IdentityModel.Tokens.Jwt.dll|net472\System.IO.Pipelines.dll|net472\System.Management.Automation.dll|net472\System.Memory.dll|net472\System.Net.WebSockets.WebSocketProtocol.dll|net472\System.Numerics.Vectors.dll|net472\System.Reflection.Metadata.dll|net472\System.Runtime.CompilerServices.Unsafe.dll|net472\System.Security.AccessControl.dll|net472\System.Security.Cryptography.Cng.dll|net472\System.Security.Cryptography.Xml.dll|net472\System.Security.Permissions.dll|net472\System.Security.Principal.Windows.dll|net472\System.Text.Encoding.CodePages.dll|net472\System.Text.Encodings.Web.dll|net472\System.Threading.Channels.dll|net472\System.Threading.Tasks.Extensions.dll|net472\UniversalDashboard.Common.dll|net472\UniversalDashboard.Common.pdb|net472\UniversalDashboard.deps.json|net472\UniversalDashboard.dll|net472\UniversalDashboard.pdb|net472\UniversalDashboard.psm1|net472\UniversalDashboardServer.psm1|net472\web.config|netstandard2.0\Microsoft.ApplicationInsights.dll|netstandard2.0\Microsoft.AspNetCore.Antiforgery.dll|netstandard2.0\Microsoft.AspNetCore.Authentication.Abstractions.dll|netstandard2.0\Microsoft.AspNetCore.Authentication.Cookies.dll|netstandard2.0\Microsoft.AspNetCore.Authentication.Core.dll|netstandard2.0\Microsoft.AspNetCore.Authentication.dll|netstandard2.0\Microsoft.AspNetCore.Authentication.Facebook.dll|netstandard2.0\Microsoft.AspNetCore.Authentication.Google.dll|netstandard2.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll|netstandard2.0\Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll|netstandard2.0\Microsoft.AspNetCore.Authentication.OAuth.dll|netstandard2.0\Microsoft.AspNetCore.Authentication.Twitter.dll|netstandard2.0\Microsoft.AspNetCore.Authorization.dll|netstandard2.0\Microsoft.AspNetCore.Authorization.Policy.dll|netstandard2.0\Microsoft.AspNetCore.Connections.Abstractions.dll|netstandard2.0\Microsoft.AspNetCore.Cors.dll|netstandard2.0\Microsoft.AspNetCore.Cryptography.Internal.dll|netstandard2.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll|netstandard2.0\Microsoft.AspNetCore.DataProtection.dll|netstandard2.0\Microsoft.AspNetCore.Diagnostics.Abstractions.dll|netstandard2.0\Microsoft.AspNetCore.Diagnostics.dll|netstandard2.0\Microsoft.AspNetCore.dll|netstandard2.0\Microsoft.AspNetCore.HostFiltering.dll|netstandard2.0\Microsoft.AspNetCore.Hosting.Abstractions.dll|netstandard2.0\Microsoft.AspNetCore.Hosting.dll|netstandard2.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll|netstandard2.0\Microsoft.AspNetCore.Html.Abstractions.dll|netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.dll|netstandard2.0\Microsoft.AspNetCore.Http.Connections.Common.dll|netstandard2.0\Microsoft.AspNetCore.Http.Connections.dll|netstandard2.0\Microsoft.AspNetCore.Http.dll|netstandard2.0\Microsoft.AspNetCore.Http.Extensions.dll|netstandard2.0\Microsoft.AspNetCore.Http.Features.dll|netstandard2.0\Microsoft.AspNetCore.HttpOverrides.dll|netstandard2.0\Microsoft.AspNetCore.HttpsPolicy.dll|netstandard2.0\Microsoft.AspNetCore.JsonPatch.dll|netstandard2.0\Microsoft.AspNetCore.Localization.dll|netstandard2.0\Microsoft.AspNetCore.Mvc.Abstractions.dll|netstandard2.0\Microsoft.AspNetCore.Mvc.ApiExplorer.dll|netstandard2.0\Microsoft.AspNetCore.Mvc.Core.dll|netstandard2.0\Microsoft.AspNetCore.Mvc.Cors.dll|netstandard2.0\Microsoft.AspNetCore.Mvc.DataAnnotations.dll|netstandard2.0\Microsoft.AspNetCore.Mvc.dll|netstandard2.0\Microsoft.AspNetCore.Mvc.Formatters.Json.dll|netstandard2.0\Microsoft.AspNetCore.Mvc.Localization.dll|netstandard2.0\Microsoft.AspNetCore.Mvc.Razor.dll|netstandard2.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll|netstandard2.0\Microsoft.AspNetCore.Mvc.RazorPages.dll|netstandard2.0\Microsoft.AspNetCore.Mvc.TagHelpers.dll|netstandard2.0\Microsoft.AspNetCore.Mvc.ViewFeatures.dll|netstandard2.0\Microsoft.AspNetCore.Razor.dll|netstandard2.0\Microsoft.AspNetCore.Razor.Language.dll|netstandard2.0\Microsoft.AspNetCore.Razor.Runtime.dll|netstandard2.0\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll|netstandard2.0\Microsoft.AspNetCore.ResponseCompression.dll|netstandard2.0\Microsoft.AspNetCore.Routing.Abstractions.dll|netstandard2.0\Microsoft.AspNetCore.Routing.dll|netstandard2.0\Microsoft.AspNetCore.Server.IISIntegration.dll|netstandard2.0\Microsoft.AspNetCore.Server.Kestrel.Core.dll|netstandard2.0\Microsoft.AspNetCore.Server.Kestrel.dll|netstandard2.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll|netstandard2.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll|netstandard2.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll|netstandard2.0\Microsoft.AspNetCore.Session.dll|netstandard2.0\Microsoft.AspNetCore.SignalR.Common.dll|netstandard2.0\Microsoft.AspNetCore.SignalR.Core.dll|netstandard2.0\Microsoft.AspNetCore.SignalR.dll|netstandard2.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll|netstandard2.0\Microsoft.AspNetCore.StaticFiles.dll|netstandard2.0\Microsoft.AspNetCore.WebSockets.dll|netstandard2.0\Microsoft.AspNetCore.WebUtilities.dll|netstandard2.0\Microsoft.CodeAnalysis.CSharp.dll|netstandard2.0\Microsoft.CodeAnalysis.dll|netstandard2.0\Microsoft.CodeAnalysis.Razor.dll|netstandard2.0\Microsoft.CSharp.dll|netstandard2.0\Microsoft.DotNet.PlatformAbstractions.dll|netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll|netstandard2.0\Microsoft.Extensions.Caching.Memory.dll|netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll|netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll|netstandard2.0\Microsoft.Extensions.Configuration.CommandLine.dll|netstandard2.0\Microsoft.Extensions.Configuration.dll|netstandard2.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll|netstandard2.0\Microsoft.Extensions.Configuration.FileExtensions.dll|netstandard2.0\Microsoft.Extensions.Configuration.Json.dll|netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.dll|netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll|netstandard2.0\Microsoft.Extensions.DependencyInjection.dll|netstandard2.0\Microsoft.Extensions.DependencyModel.dll|netstandard2.0\Microsoft.Extensions.FileProviders.Abstractions.dll|netstandard2.0\Microsoft.Extensions.FileProviders.Composite.dll|netstandard2.0\Microsoft.Extensions.FileProviders.Physical.dll|netstandard2.0\Microsoft.Extensions.FileSystemGlobbing.dll|netstandard2.0\Microsoft.Extensions.Hosting.Abstractions.dll|netstandard2.0\Microsoft.Extensions.Localization.Abstractions.dll|netstandard2.0\Microsoft.Extensions.Localization.dll|netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll|netstandard2.0\Microsoft.Extensions.Logging.Configuration.dll|netstandard2.0\Microsoft.Extensions.Logging.Console.dll|netstandard2.0\Microsoft.Extensions.Logging.Debug.dll|netstandard2.0\Microsoft.Extensions.Logging.dll|netstandard2.0\Microsoft.Extensions.Logging.Filter.dll|netstandard2.0\Microsoft.Extensions.ObjectPool.dll|netstandard2.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll|netstandard2.0\Microsoft.Extensions.Options.dll|netstandard2.0\Microsoft.Extensions.Primitives.dll|netstandard2.0\Microsoft.Extensions.WebEncoders.dll|netstandard2.0\Microsoft.IdentityModel.Logging.dll|netstandard2.0\Microsoft.IdentityModel.Protocols.dll|netstandard2.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll|netstandard2.0\Microsoft.IdentityModel.Tokens.dll|netstandard2.0\Microsoft.Net.Http.Headers.dll|netstandard2.0\Microsoft.Win32.Registry.dll|netstandard2.0\Newtonsoft.Json.Bson.dll|netstandard2.0\Newtonsoft.Json.dll|netstandard2.0\NLog.dll|netstandard2.0\NLog.Extensions.Logging.dll|netstandard2.0\NLog.Web.AspNetCore.dll|netstandard2.0\Quartz.dll|netstandard2.0\System.AppContext.dll|netstandard2.0\System.Buffers.dll|netstandard2.0\System.Collections.Concurrent.dll|netstandard2.0\System.Collections.Immutable.dll|netstandard2.0\System.Collections.NonGeneric.dll|netstandard2.0\System.Collections.Specialized.dll|netstandard2.0\System.ComponentModel.Annotations.dll|netstandard2.0\System.ComponentModel.dll|netstandard2.0\System.ComponentModel.Primitives.dll|netstandard2.0\System.ComponentModel.TypeConverter.dll|netstandard2.0\System.Configuration.ConfigurationManager.dll|netstandard2.0\System.Data.Common.dll|netstandard2.0\System.Data.SqlClient.dll|netstandard2.0\System.Diagnostics.Contracts.dll|netstandard2.0\System.Diagnostics.DiagnosticSource.dll|netstandard2.0\System.Diagnostics.StackTrace.dll|netstandard2.0\System.Dynamic.Runtime.dll|netstandard2.0\System.IdentityModel.Tokens.Jwt.dll|netstandard2.0\System.IO.FileSystem.Primitives.dll|netstandard2.0\System.IO.Pipelines.dll|netstandard2.0\System.Linq.dll|netstandard2.0\System.Linq.Expressions.dll|netstandard2.0\System.Management.Automation.dll|netstandard2.0\System.Memory.dll|netstandard2.0\System.Net.WebSockets.WebSocketProtocol.dll|netstandard2.0\System.Numerics.Vectors.dll|netstandard2.0\System.ObjectModel.dll|netstandard2.0\System.Private.DataContractSerialization.dll|netstandard2.0\System.Reflection.Emit.dll|netstandard2.0\System.Reflection.Emit.ILGeneration.dll|netstandard2.0\System.Reflection.Emit.Lightweight.dll|netstandard2.0\System.Reflection.Metadata.dll|netstandard2.0\System.Reflection.TypeExtensions.dll|netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll|netstandard2.0\System.Runtime.InteropServices.RuntimeInformation.dll|netstandard2.0\System.Runtime.Loader.dll|netstandard2.0\System.Runtime.Numerics.dll|netstandard2.0\System.Runtime.Serialization.Primitives.dll|netstandard2.0\System.Runtime.Serialization.Xml.dll|netstandard2.0\System.Security.AccessControl.dll|netstandard2.0\System.Security.Claims.dll|netstandard2.0\System.Security.Cryptography.Cng.dll|netstandard2.0\System.Security.Cryptography.OpenSsl.dll|netstandard2.0\System.Security.Cryptography.Pkcs.dll|netstandard2.0\System.Security.Cryptography.Primitives.dll|netstandard2.0\System.Security.Cryptography.ProtectedData.dll|netstandard2.0\System.Security.Cryptography.Xml.dll|netstandard2.0\System.Security.Permissions.dll|netstandard2.0\System.Security.Principal.dll|netstandard2.0\System.Security.Principal.Windows.dll|netstandard2.0\System.Text.Encoding.CodePages.dll|netstandard2.0\System.Text.Encodings.Web.dll|netstandard2.0\System.Text.RegularExpressions.dll|netstandard2.0\System.Threading.Channels.dll|netstandard2.0\System.Threading.dll|netstandard2.0\System.Threading.Tasks.Extensions.dll|netstandard2.0\System.Threading.Tasks.Parallel.dll|netstandard2.0\System.Threading.Thread.dll|netstandard2.0\System.ValueTuple.dll|netstandard2.0\System.Xml.ReaderWriter.dll|netstandard2.0\System.Xml.XDocument.dll|netstandard2.0\System.Xml.XmlDocument.dll|netstandard2.0\System.Xml.XmlSerializer.dll|netstandard2.0\System.Xml.XPath.dll|netstandard2.0\System.Xml.XPath.XDocument.dll|netstandard2.0\UniversalDashboard.Common.dll|netstandard2.0\UniversalDashboard.Common.pdb|netstandard2.0\UniversalDashboard.deps.json|netstandard2.0\UniversalDashboard.dll|netstandard2.0\UniversalDashboard.pdb|netstandard2.0\UniversalDashboard.psm1|netstandard2.0\UniversalDashboardServer.psm1|netstandard2.0\web.config|poshud\dashboard.ps1|poshud\footer.ps1|poshud\test.ps1|poshud\utils.ps1|Modules\UniversalDashboard.Materialize\index.b70ef78fa655a6797e83.bundle.js|Modules\UniversalDashboard.Materialize\index.b70ef78fa655a6797e83.bundle.map|Modules\UniversalDashboard.Materialize\UniversalDashboard.Materialize.psd1|Modules\UniversalDashboard.Materialize\UniversalDashboard.Materialize.psm1|Modules\UniversalDashboard.MaterialUI\index.4bc80450e0b87b17bc49.bundle.js|Modules\UniversalDashboard.MaterialUI\index.4bc80450e0b87b17bc49.bundle.map|Modules\UniversalDashboard.MaterialUI\UniversalDashboard.MaterialUI.psd1|Modules\UniversalDashboard.MaterialUI\UniversalDashboard.MaterialUI.psm1|net472\Styles\site.css|net472\Themes\Azure.psd1|net472\Themes\Blue.psd1|net472\Themes\DarkDefault.psd1|net472\Themes\DarkRounded.psd1|net472\Themes\Default.psd1|net472\Themes\DefaultTight.psd1|net472\Themes\Earth.psd1|net472\Themes\Green.psd1|net472\Themes\Red.psd1|netstandard2.0\Styles\site.css|netstandard2.0\Themes\Azure.psd1|netstandard2.0\Themes\Blue.psd1|netstandard2.0\Themes\DarkDefault.psd1|netstandard2.0\Themes\DarkRounded.psd1|netstandard2.0\Themes\Default.psd1|netstandard2.0\Themes\DefaultTight.psd1|netstandard2.0\Themes\Earth.psd1|netstandard2.0\Themes\Green.psd1|netstandard2.0\Themes\Red.psd1|poshud\dashboards\azure.ps1|poshud\pages\getting-started.ps1|poshud\pages\home.ps1|poshud\pages\rest-apis.ps1|poshud\pages\scheduled-endpoints.ps1|Modules\UniversalDashboard.Materialize\Scripts\button.ps1|Modules\UniversalDashboard.Materialize\Scripts\card.ps1|Modules\UniversalDashboard.Materialize\Scripts\checkbox.ps1|Modules\UniversalDashboard.Materialize\Scripts\collapsible.ps1|Modules\UniversalDashboard.Materialize\Scripts\collection.ps1|Modules\UniversalDashboard.Materialize\Scripts\column.ps1|Modules\UniversalDashboard.Materialize\Scripts\fab.ps1|Modules\UniversalDashboard.Materialize\Scripts\grid-layout.ps1|Modules\UniversalDashboard.Materialize\Scripts\grid.ps1|Modules\UniversalDashboard.Materialize\Scripts\image-carousel.ps1|Modules\UniversalDashboard.Materialize\Scripts\layout.ps1|Modules\UniversalDashboard.Materialize\Scripts\link.ps1|Modules\UniversalDashboard.Materialize\Scripts\preloader.ps1|Modules\UniversalDashboard.Materialize\Scripts\radio.ps1|Modules\UniversalDashboard.Materialize\Scripts\row.ps1|Modules\UniversalDashboard.Materialize\Scripts\select.ps1|Modules\UniversalDashboard.Materialize\Scripts\switch.ps1|Modules\UniversalDashboard.Materialize\Scripts\table.ps1|Modules\UniversalDashboard.Materialize\Scripts\tabs.ps1|Modules\UniversalDashboard.Materialize\Scripts\treeview.ps1|Modules\UniversalDashboard.MaterialUI\Scripts\avatar.ps1|Modules\UniversalDashboard.MaterialUI\Scripts\button.ps1|Modules\UniversalDashboard.MaterialUI\Scripts\card.ps1|Modules\UniversalDashboard.MaterialUI\Scripts\checkbox.ps1|Modules\UniversalDashboard.MaterialUI\Scripts\chips.ps1|Modules\UniversalDashboard.MaterialUI\Scripts\icon-button.ps1|Modules\UniversalDashboard.MaterialUI\Scripts\link.ps1|Modules\UniversalDashboard.MaterialUI\Scripts\list.ps1|Modules\UniversalDashboard.MaterialUI\Scripts\paper.ps1|Modules\UniversalDashboard.MaterialUI\Scripts\pdf.ps1|Modules\UniversalDashboard.MaterialUI\Scripts\typography.ps1</S>
+          <S N="GUID">c7894dd1-357e-4474-b8e1-b416afd70c2d</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="DotNetFrameworkVersion">4.7</S>
+          <S N="CompanyName">Ironman Software, LLC</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\Sasch\OneDrive\Dokumente\WindowsPowerShell\Modules\UniversalDashboard.Community\2.9.0</S>
+    </MS>
+  </Obj>
+</Objs>

@@ -1,0 +1,156 @@
+# Enable the subsequent settings only in interactive sessions
+case $- in
+  *i*) ;;
+    *) return;;
+esac
+
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# Further User Extensions
+source $HOME/.aliases
+source $HOME/.exports
+
+# Set permissons
+chmod 0700 $HOME/.ssh
+chmod 0600 $HOME/.ssh/id_ed25519_home
+
+eval `keychain --agents ssh,gpg --eval id_rsa 8C774E4EEA7C0DCAB7F8159D32FA7F0AC1DC7DF9`
+
+# Uncomment one of the following lines to change the auto-update behavior
+zstyle ':omz:update' mode auto      # update automatically without asking
+
+# Uncomment the following line to change how often to auto-update (in days).
+zstyle ':omz:update' frequency 13
+
+# Uncomment the following line to display red dots whilst waiting for completion.
+# You can also set it to another string to have that shown instead of the default red dots.
+# e.g. COMPLETION_WAITING_DOTS="%F{yellow}waiting...%f"
+# Caution: this setting can cause issues with multiline prompts in zsh < 5.7.1 (see #5765)
+COMPLETION_WAITING_DOTS="true"
+
+ZSH_COLORIZE=pygments
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff00ff,bg=cyan,bold,underline"
+
+source ~/.zplug/init.zsh
+
+# Make sure to use double quotes
+zplug "zsh-users/zsh-history-substring-search"
+
+# Use the package as a command
+# And accept glob patterns (e.g., brace, wildcard, ...)
+zplug "Jxck/dotfiles", as:command, use:"bin/{histuniq,color}"
+
+# Can manage everything e.g., other person's zshrc
+zplug "tcnksm/docker-alias", use:zshrc
+
+# Disable updates using the "frozen" tag
+zplug "k4rthik/git-cal", as:command, frozen:1
+
+# Supports oh-my-zsh plugins and the like
+zplug "plugins/git",   from:oh-my-zsh
+
+# Run a command after a plugin is installed/updated
+# Provided, it requires to set the variable like the following:
+# ZPLUG_SUDO_PASSWORD="********"
+zplug "jhawthorn/fzy", \
+    as:command, \
+    rename-to:fzy, \
+    hook-build:"make && sudo make install"
+
+# Supports checking out a specific branch/tag/commit
+zplug "b4b4r07/enhancd", at:v1
+zplug "mollifier/anyframe", at:4c23cb60
+
+# Can manage gist file just like other packages
+zplug "b4b4r07/79ee61f7c140c63d2786", \
+    from:gist, \
+    as:command, \
+    use:get_last_pane_path.sh
+
+# Support bitbucket
+zplug "b4b4r07/hello_bitbucket", \
+    from:bitbucket, \
+    as:command, \
+    use:"*.sh"
+
+# Rename a command with the string captured with `use` tag
+zplug "b4b4r07/httpstat", \
+    as:command, \
+    use:'(*).sh', \
+    rename-to:'$1'
+
+# Note: To specify the order in which packages should be loaded, use the defer
+#       tag described in the next section
+
+# Set the priority when loading
+# e.g., zsh-syntax-highlighting must be loaded
+# after executing compinit command and sourcing other plugins
+# (If the defer tag is given 2 or above, run after compinit command)
+zplug "zsh-users/zsh-syntax-highlighting", defer:2
+
+# Load theme file
+zplug "themes/agnoster", from:oh-my-zsh, as:theme
+
+# Install plugins if there are plugins that have not been installed
+if ! zplug check --verbose; then
+    printf "Install? [y/N]: "
+    if read -q; then
+        echo; zplug install
+    fi
+fi
+
+zplug "memark/zsh-dotnet-completion", defer:2
+
+# Oh my zsh
+zplug "plugins/adb", from:oh-my-zsh
+zplug "plugins/aws", from:oh-my-zsh
+zplug "plugins/colored-man-pages", from:oh-my-zsh
+zplug "plugins/colorize", from:oh-my-zsh
+zplug "plugins/command-not-found", from:oh-my-zsh
+zplug "plugins/common-aliases", from:oh-my-zsh
+zplug "plugins/copyfile", from:oh-my-zsh
+zplug "plugins/copypath", from:oh-my-zsh
+zplug "plugins/debian", from:oh-my-zsh
+zplug "plugins/docker", from:oh-my-zsh
+zplug "plugins/docker-machine", from:oh-my-zsh
+zplug "plugins/dotnet", from:oh-my-zsh
+zplug "plugins/fasd", from:oh-my-zsh
+zplug "plugins/frontend-search", from:oh-my-zsh
+zplug "plugins/gh", from:oh-my-zsh
+zplug "plugins/gpg-agent", from:oh-my-zsh
+zplug "plugins/git", from:oh-my-zsh
+zplug "plugins/git-auto-fetch", from:oh-my-zsh
+zplug "plugins/git-extras", from:oh-my-zsh
+zplug "plugins/git-flow", from:oh-my-zsh
+zplug "plugins/github", from:oh-my-zsh
+zplug "plugins/gulp", from:oh-my-zsh
+zplug "plugins/jsontools", from:oh-my-zsh
+zplug "plugins/node", from:oh-my-zsh
+zplug "plugins/sdk", from:oh-my-zsh
+zplug "plugins/ssh-agent", from:oh-my-zsh
+zplug "plugins/sudo", from:oh-my-zsh
+zplug "plugins/zsh-autosuggestions", from:oh-my-zsh
+zplug "plugins/zsh-syntax-highlighting", from:oh-my-zsh
+
+# Then, source plugins and add commands to $PATH
+zplug load #--verbose
+
+# Base16 Shell
+BASE16_SHELL="$HOME/.config/base16-shell/"
+[ -n "$PS1" ] && \
+    [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
+        source "$BASE16_SHELL/profile_helper.sh"
+base16_material
+
+source $HOME/.keychain/SaigkillsDesk-sh
+source $HOME/.keychain/SaigkillsDesk-sh-gpg
+
+# Set PATH, MANPATH, etc., for Homebrew.
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+eval "$(starship init zsh)"
+
+# User configuration
+
+# make less more friendly for non-text input files, see lesspipe(1)
+[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"

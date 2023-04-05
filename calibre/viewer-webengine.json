@@ -1,0 +1,41 @@
+{
+  "main_window_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAA7/AAAAJQAAFZAAAAQIAAAPIwAAAEkAABJ2AAAEBgAAAAICAAAABpAAAA8AAAAANQAAFY8AAAQH"
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIcA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAlQD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAAB9AP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAOcA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAEwD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAMkA////AAAGkAAAA9MAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "session_data": {
+    "controls_help_shown_count": 2,
+    "standalone_font_settings": {},
+    "standalone_misc_settings": {
+      "remember_last_read": true,
+      "remember_window_geometry": false,
+      "save_annotations_in_ebook": true,
+      "singleinstance": false
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "Ricardo Peres"
+        ],
+        "key": "C:\\Users\\Sascha\\OneDrive\\Calibre-Bibliothek\\Ricardo Peres\\Entity Framework Core Succinctly (237)\\Entity Framework Core Succinctl - Ricardo Peres.epub",
+        "pathtoebook": "C:\\Users\\Sascha\\OneDrive\\Calibre-Bibliothek\\Ricardo Peres\\Entity Framework Core Succinctly (237)\\Entity Framework Core Succinctl - Ricardo Peres.epub",
+        "timestamp": "2022-02-21T13:50:48.409Z",
+        "title": "Entity Framework Core Succinctly"
+      },
+      {
+        "authors": [
+          "Ricardo Peres"
+        ],
+        "key": "C:\\Users\\Sascha\\OneDrive\\Calibre-Bibliothek\\Ricardo Peres\\Entity Framework Code First Succinc (243)\\Entity Framework Code First Suc - Ricardo Peres.epub",
+        "pathtoebook": "C:\\Users\\Sascha\\OneDrive\\Calibre-Bibliothek\\Ricardo Peres\\Entity Framework Code First Succinc (243)\\Entity Framework Code First Suc - Ricardo Peres.epub",
+        "timestamp": "2022-02-21T13:46:14.478Z",
+        "title": "Entity Framework Code First Succinctly"
+      }
+    ]
+  }
+}

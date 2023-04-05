@@ -1,0 +1,251 @@
+{
+  "basic_metadata_widget_splitter_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAADAAAA5AAAAX8AAAEKAf////8BAAAAAQA="
+  },
+  "book_details_splitter_horizontal_state": [
+    true,
+    200
+  ],
+  "book_list_pin_splitter_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAACAAABAAAAAEYA/////wEAAAABAA=="
+  },
+  "cover_browser_splitter_vertical_state": [
+    false,
+    300
+  ],
+  "custom_colors_for_color_dialog": [
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ]
+  ],
+  "duplicates-question-dialog-geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAKOAAABPgAABPIAAALPAAACjwAAAVUAAATxAAACzgAAAAAAAAAAB4AAAAKPAAABVQAABPEAAALO"
+  },
+  "geometry-of-calibre_main_window_geometry": {
+    "frame_geometry": {
+      "height": 1399,
+      "width": 2290,
+      "x": 270,
+      "y": -7
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 1369,
+      "width": 2290,
+      "x": 270,
+      "y": 23
+    },
+    "maximized": true,
+    "normal_geometry": {
+      "height": 498,
+      "width": 1585,
+      "x": 903,
+      "y": 319
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAEO////+QAACf8AAAVvAAADhwAAAT8AAAm3AAADMAAAAAACAAAACgAAAAEOAAAAFwAACf8AAAVv"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 1.5,
+      "geometry_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "",
+      "model": "",
+      "name": "U32R59x",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560
+      },
+      "virtual_geometry": {
+        "height": 1440,
+        "width": 5120,
+        "x": -2560,
+        "y": 0
+      }
+    }
+  },
+  "geometry-of-duplicates-question-dialog-geometry": {
+    "frame_geometry": {
+      "height": 425,
+      "width": 623,
+      "x": 1100,
+      "y": 478
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 378,
+      "width": 611,
+      "x": 1106,
+      "y": 515
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 378,
+      "width": 611,
+      "x": 1106,
+      "y": 515
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAARMAAAB3gAABroAAAOGAAAEUgAAAgMAAAa0AAADfAAAAAAAAAAACgAAAARSAAACAwAABrQAAAN8"
+    },
+    "screen": {
+      "depth": 32,
+      "device_pixel_ratio": 1.5,
+      "geometry_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "",
+      "model": "",
+      "name": "U32R59x",
+      "serial": "",
+      "size_in_logical_pixels": {
+        "height": 1440,
+        "width": 2560
+      },
+      "virtual_geometry": {
+        "height": 1440,
+        "width": 5120,
+        "x": -2560,
+        "y": 0
+      }
+    }
+  },
+  "grid view visible": false,
+  "library_usage_stats": {
+    "C:/Users/Admin/OneDrive/Calibre-Bibliothek": 4,
+    "C:/Users/Sascha/OneDrive/Calibre-Bibliothek": 18
+  },
+  "metadata-download-identify-widget-splitter-state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAEAAAACAAACAAAAAQAA/////wEAAAABAA=="
+  },
+  "metadata_single_gui_geom": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAI5AAAA3wAABYwAAANOAAACOgAAAPYAAAWLAAADTQAAAAAAAAAAB4AAAAI6AAAA9gAABYsAAANN"
+  },
+  "metasingle_window_geometry3": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAABFAAAAGgAAB4AAAAQTAAAARgAAADEAAAd/AAAEEgAAAAAAAAAAB4AAAABGAAAAMQAAB38AAAQS"
+  },
+  "quick_start_guide_added": true,
+  "quickview visible": false,
+  "recently_used_languages": [
+    "Englisch"
+  ],
+  "search bar visible": true,
+  "tag browser search box visible": false,
+  "tag_browser_splitter_horizontal_state": [
+    true,
+    200
+  ],
+  "windows_register_default_programs": "6.14.1"
+}

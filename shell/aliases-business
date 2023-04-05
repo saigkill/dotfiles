@@ -1,0 +1,16 @@
+alias myip="curl http://ipecho.net/plain; echo"
+alias installed="sudo apt list --installed"
+alias ducks="du -cksh * | sort -hr"
+alias disks="df -hTlx squashfs -x tmpfs -x devtmpfs"
+alias mkdir="mkdir -p"
+alias xsc="xclip -selection clipboard"
+# enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto'
+    alias ll='ls -l --color=auto'
+    alias lsh='ls -lah --color=auto'
+    alias dir='dir --color=auto'
+    alias grep='grep --color=auto'
+fi
+alias ssh-add="ssh-add -t 9h"

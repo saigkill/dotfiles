@@ -1,0 +1,41 @@
+{
+    "dev.pageMargin.color": "rgba(0, 0, 0, 0.2)",
+    "dev.enable_disabled_in_property_page": false,
+    "view.useCompactLayout": false,
+    "device.adb_path": "ADB",
+    "export.crop_for_clipboard": false,
+    "export.default_scale": 1,
+    "export.default_background_color": "",
+    "capture.active_provider_id": "",
+    "capture.gnome_screenshot.exec_path": "/usr/bin/gnome-screenshot",
+    "capture.mac_screenshot.exec_path": "/usr/sbin/screencapture",
+    "capture.snippingtool_screenshot.exec_path": "C:\\WINDOWS\\system32\\SnippingTool.exe",
+    "view.undoLevel": 10,
+    "capture.insert_bitmap_shape_id": "Evolus.Common:Bitmap",
+    "shortcut.global.screencapture_area": "Super+F12",
+    "capture.options.hide_pointer": true,
+    "capture.options.hide_pencil_window": true,
+    "capture.options.delay": 0,
+    "capture.options.insert_mode": "normal",
+    "collection.repo.core_repo_urls": "https://raw.githubusercontent.com/evolus/stencils-repository/master/repository.xml",
+    "collection.repo.outdated_repo_urls": "https://raw.githubusercontent.com/evolus/stencils-repository/master/repository-outdated.xml",
+    "collection.repo.extra_repo_urls": "",
+    "view.startupscreen.gridview.enabled": true,
+    "dev.stencil.path": "none",
+    "dev.stencil.dir": "none",
+    "dev.enabled": false,
+    "painterPropertyMap": "fillColor,foreColor,textColor,strokeColor,borderColor,strokeStyle,textAlign,textFont,shadowStyle,shadowColor,withBlur,withShadow,textPadding,startFillColor,endFillColor",
+    "object.snapping.enabled": true,
+    "grid.enabled": false,
+    "ui.collapsable_pane.left_pane.active_id": "collectionPane",
+    "Collection.lastUsedCollection.id": "Evolus.Prototype.GUI",
+    "edit.gridSize": 5,
+    "document.fileHandler.defaultHandlerType": ".epgz",
+    "document.save.recentlyDirPath": "C:\\Users\\Sascha\\OneDrive\\Dokumente\\Pencil Projekte",
+    "recent-documents": [
+        "C:\\Users\\Sascha\\OneDrive\\Dokumente\\Pencil Projekte\\JobApplicationManager.epgz"
+    ],
+    "recent-documents-thumb-map": {
+        "C:\\Users\\Sascha\\OneDrive\\Dokumente\\Pencil Projekte\\JobApplicationManager.epgz": "C:\\Users\\Sascha\\.pencil\\thumbs\\2c1069415f0c4765819ec96de0a07ff5.png"
+    }
+}

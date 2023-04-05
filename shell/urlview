@@ -1,0 +1,11 @@
+#
+# dotfiles : # dotfiles : https://github.com/saigkill/dotfiles
+#
+# urlview
+#
+# Authors:
+#   Ben O'Hara <bohara@gmail.com>
+#
+
+COMMAND open %s
+

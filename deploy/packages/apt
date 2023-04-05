@@ -1,0 +1,56 @@
+#
+# dotfiles : https://github.com/saigkill/dotfiles
+#
+# packages to be install with apt-get
+#
+# Authors:
+#    Ben O'Hara <bohara@gmail.com>
+#
+
+ack
+aptitude
+apt-transport-https
+aria2
+byobu
+ca-certificates
+calibre
+curl
+#docker
+#docker-compose
+#docker.io
+doxygen
+fasd
+fd-find
+fonts-powerline
+fzf
+gedit
+gh
+git-all
+gnupg
+lsb-release
+irssi
+keychain
+kdiff3
+kleopatra
+make
+mc
+ngrok
+nmap
+openssh-server
+openssh-client
+openssl
+p7zip-full
+pastebinit
+ripgrep
+rust-all
+synaptic
+traceroute
+tmux
+universal-ctags
+unrar
+unzip
+vim
+wget
+whois
+zip
+zsh

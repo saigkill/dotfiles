@@ -1,0 +1,124 @@
+{
+	"editor.fontFamily": "FiraCode Nerd Font",
+	"editor.fontLigatures": "'zero', 'ss02', 'ss04', 'calt'",
+	"editor.formatOnType": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.renderWhitespace": "all",
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": true,
+	"editor.wordWrap": "on",
+	"latex-workshop.chktex.enabled": true,
+	"latex-workshop.chktex.args.active": [
+		"-wall",
+		"-n22",
+		"-n30",
+		"-e16",
+		"-n46",
+		"-q"
+	],
+	"latex-workshop.view.pdf.viewer": "tab",
+	"latex-workshop.synctex.afterBuild.enabled": true,
+	"latex-workshop.intellisense.package.enabled": true,
+	"latex-workshop.latex.recipes": [
+		{
+			"name": "latexmk",
+			"tools": [
+				"latexmk"
+			]
+		},
+		{
+			"name": "latexmk (pdftex)",
+			"tools": [
+				"latexmk (pdftex)"
+			]
+		},
+	],
+	"latex-workshop.latex.tools": [
+		{
+			"name": "latexmk",
+			"command": "latexmk",
+			"args": [
+				"-synctex=1",
+				"-interaction=nonstopmode",
+				"-file-line-error",
+				"-xelatex",
+				"%DOC%"
+			],
+		},
+		{
+			"name": "latexmk (pdftex)",
+			"command": "latexmk",
+			"args": [
+				"-synctex=1",
+				"-interaction=nonstopmode",
+				"-file-line-error",
+				"-pdf",
+				"-outdir=%OUTDIR%",
+				"%DOC%"
+			],
+		},
+	],
+	"latex-workshop.latex.recipe.default": "lastUsed",
+	"git.autofetch": true,
+	"gitlens.advanced.messages": {
+		"suppressShowKeyBindingsNotice": true,
+	},
+	"gitlens.historyExplorer.enabled": true,
+	"gitlens.views.fileHistory.enabled": true,
+	"gitlens.views.lineHistory.enabled": true,
+	"window.zoomLevel": 0,
+	"window.titleBarStyle": "native",
+	"terminal.integrated.env.linux": {
+		"ZSH_TMUX_AUTOSTART": "false",
+	},
+	"terminal.integrated.fontFamily": "FiraCode Nerd Font",
+	"msbuildProjectTools.experimentalFeatures": [],
+	"msbuildProjectTools.nuget.includePreRelease": true,
+	"msbuildProjectTools.nuget.newestVersionsFirst": true,
+	"msbuildProjectTools.logging.seq.level": "Verbose",
+	"C_Cpp.default.cppStandard": "c++11",
+	"C_Cpp.default.includePath": [
+		"/usr/include",
+		"/usr/local/include",
+	],
+	"python.pythonPath": "python3",
+	"cSpell.language": ",de,en-GB",
+	"cSpell.allowCompoundWords": true,
+	"cSpell.ignorePaths": [
+		"**/package-lock.json",
+		"**/node_modules/**",
+		"**/vscode-extension/**",
+		"**/.git/**",
+		".vscode",
+		"typings",
+		"**/*rc",
+	],
+	"terminal.integrated.rendererType": "dom",
+	"editor.wordBasedSuggestions": false,
+	"yaml.format.enable": true,
+	"breadcrumbs.enabled": true,
+	"workbench.settings.editor": "json",
+	"razor.trace": "Verbose",
+	"razor.disabled": true,
+	"markdownlint.config": {
+		"default": true,
+		"ul-indent": {
+			"indent": 4,
+		},
+	},
+	"todo-tree.regex.regex": "((//|#|<!--|;|/\\*|%|^)\\s*($TAGS)|^\\s*- \\[ \\])",
+	"todo-tree.general.tags": [
+		"TODO",
+		"FIXME",
+		"HACK"
+	],
+	"[markdown]": {
+		"editor.insertSpaces": true,
+		"editor.detectIndentation": false,
+	},
+	"markdown-preview-enhanced.frontMatterRenderingOption": "code block",
+	"html.format.wrapLineLength": 0,
+	"todo-tree.highlights.enabled": true,
+	"redhat.telemetry.enabled": false
+}
