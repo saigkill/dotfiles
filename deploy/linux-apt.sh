@@ -35,10 +35,42 @@ if [[ "$distro" == "Pengwin" ]]; then
   echo "Would you like to initialize Pengwin? (y/n)"
   read -p "$* [y/n]: " yn
   case $yn in
-  [Yy]*) pengwin-setup ;;
+  [Yy]*) install_pengwin ;;
   [Nn]*) return 0 ;;
 esac
 fi
+
+###############################################################################
+# Pengwin Setup
+###############################################################################
+function install_pengwin(){
+  pushd pengwin-setup/pengwin-setup.d
+
+  bash azurecli.sh --yes
+  bash brew.sh --yes
+  bash colortool.sh --yes
+  bash docker.sh --yes
+  bash dotnet.sh --yes
+  bash explorer.sh --yes
+  bash fzf.sh --yes
+  bash go --yes
+  bash guilib.sh --yes
+  bash java.sh --yes
+  bash jetbrains-support.sh --yes
+  bash keychain --yes
+  bash languages.sh --yes
+  bash nodejs.sh NVM --yes
+  bash powershell.sh --yes
+  bash pythonpi.sh PYENV --yes
+  bash rust.sh --yes
+  bash shell-opts.sh --yes
+  bash shells.sh ZSH --yes
+  bash theme.sh --yes
+
+  popd
+  chmod +x "${HOME}"/.pyenv/bin/pyenv
+  touch "${HOME}"/.should-restart
+}
 
 ###############################################################################
 # Repositories
@@ -95,15 +127,6 @@ if [[ "$distro" == "Pengwin" || "$distro" == "Debian" || "$distro" == "Kali GNU/
   curl --remote-name https://prerelease.keybase.io/keybase_amd64.deb
   sudo apt install ./keybase_amd64.deb
   run_keybase
-fi
-
-echo "Installing Topgrade"
-if [[ "$distro" == "Pengwin" || "$distro" == "Debian" || "$distro" == "Kali GNU/Linux" ]]; then
-  TOPGRADE_VERSION=$(curl -s "https://api.github.com/repos/topgrade-rs/topgrade/releases/latest" | grep -Po '"tag_name": "v\K[^"]*')
-  wget https://github.com/topgrade-rs/topgrade/releases/download/$TOPGRADE_VERSION/topgrade-$TOPGRADE_VERSION-x86_64-unknown-linux-musl.tar.gz
-  tar xvfz topgrade-$TOPGRADE_VERSION-x86_64-unknown-linux-musl.tar.gz
-  sudo mv topgrade /usr/local/bin
-  rm topgrade-$TOPGRADE_VERSION-x86_64-unknown-linux-musl.tar.gz
 fi
 
 echo "Installing Github CLI"

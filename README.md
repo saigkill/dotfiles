@@ -46,6 +46,8 @@ You can use one of these scripts in deploy directory:
 ```
 While running the deploy script, the dotfiles will be installed too.
 
+The deployment script for WSL is optimized for the [Pengwin][pengwin] distro.
+
 License
 -------
 
@@ -56,3 +58,4 @@ That being said, I would appreciate it if you could maintain a link back to
 Dotbot (or this repository) to help other people discover Dotbot.
 
 [dotbot]: https://github.com/anishathalye/dotbot
+[pengwin]: https://www.whitewaterfoundry.com/

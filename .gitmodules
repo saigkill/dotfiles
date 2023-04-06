@@ -10,3 +10,6 @@
 [submodule "zsh/zplug"]
 	path = zsh/zplug
 	url = https://github.com/zplug/zplug.git
+[submodule "deploy/pengwin-setup"]
+	path = deploy/pengwin-setup
+	url = https://github.com/WhitewaterFoundry/pengwin-setup.git
