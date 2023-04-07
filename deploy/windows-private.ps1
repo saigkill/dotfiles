@@ -439,6 +439,7 @@ Write-Host ""
 Write-Host "Installing Dotnet tools globally..." -ForegroundColor Green
 Write-Host "------------------------------------" -ForegroundColor Green
 dotnet tool install -g dotnet-ef
+dotnet workload install macos maccatalyst ios maui-android android maui-windows maui-ios maui-maccatalyst wasm-tools
 
 AddToPath "$env:USERPROFILE\.dotnet\tools"
 #-----------------------------------------------------------------------------

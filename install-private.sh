@@ -15,6 +15,7 @@ read -r -p "Are you have made a backup before? [y/N] " response
 if [[ "$response" =~ ^([yY][eE][sS]|[yY])$ ]]
 then
     "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "${CONFIG}" "${@}"
+    sudo rm /etc/wsl.conf
     sudo "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "${CONFIG_ROOT}" "${@}"
 else
     echo "Better made a backup before"

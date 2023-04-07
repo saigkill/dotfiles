@@ -104,6 +104,14 @@ if [[ -f $DIR/packages/apt ]]; then
 fi
 
 ###############################################################################
+# .NET Workloads
+###############################################################################
+
+echo """Installing .NET Workloads & EF"
+dotnet tool install -g dotnet-ef
+dotnet workload install macos maccatalyst ios maui-android android maui-windows maui-ios maui-maccatalyst wasm-tools
+
+###############################################################################
 # Additional
 ###############################################################################
 echo "Installing additional packages"
@@ -126,6 +134,7 @@ echo "Installing Keybase"
 if [[ "$distro" == "Pengwin" || "$distro" == "Debian" || "$distro" == "Kali GNU/Linux" ]]; then
   curl --remote-name https://prerelease.keybase.io/keybase_amd64.deb
   sudo apt install ./keybase_amd64.deb
+  rm keybase_amd64.deb
   run_keybase
 fi
 
