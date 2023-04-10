@@ -25,3 +25,4 @@ rustup/toolchains
 ssh/known_hosts
 zsh/base16-shell/*
 zsh/zplug/*
+*.un~*

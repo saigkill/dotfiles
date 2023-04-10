@@ -15,15 +15,13 @@ byobu
 ca-certificates
 calibre
 curl
-#docker
-#docker-compose
-#docker.io
 doxygen
 fasd
 fd-find
 fonts-powerline
 fzf
 gedit
+gcm
 gh
 git-all
 gnupg
